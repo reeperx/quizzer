@@ -39,7 +39,9 @@ function Header() {
           : "bg-transparent"
       }`}
     >
+      <Link href={"/"}>
       <Image src={"/logo.svg"} width={160} height={100} alt="logo" />
+      </Link>
 
       {/* Hamburger menu icon */}
       <div className="md:hidden">
